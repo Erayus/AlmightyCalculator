@@ -1,0 +1,89 @@
+body{
+    position: relative;
+    height: 100vh;
+    background-color: black;
+}
+
+.calculator{
+    position: absolute;
+    color: yellow;
+    background-color: black;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    border-radius: 20px;
+    border: 2px solid yellow;
+    -webkit-box-shadow: -1px 2px 49px 8px rgba(219,230,18,1);
+    -moz-box-shadow: -1px 2px 49px 8px rgba(219,230,18,1);
+    box-shadow: -1px 2px 49px 8px rgba(219,230,18,1);
+}
+.cal-title{
+    text-align: right;
+    margin-right: 20px;
+    margin-top: 10px;
+}
+
+.cal-screen{
+    margin:20px;
+    padding: 10px;
+    background-color: transparent;
+    border-radius: 10px;
+    border: 2px inset yellow;
+    text-align: right;
+}
+.numbers-size{
+    font-size: 45px;
+    font-family: 'Graduate', cursive;
+}
+.overAllNum-size{
+    font-size: 25px;
+    font-family: 'Graduate', cursive;
+}
+
+.cal-buttons{
+    margin: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 20px;
+    font-family: 'Graduate', cursive;
+    border: 2px solid yellow;
+    border-radius: 10px;
+}
+
+.cal-buttons-left{
+    display: flex;
+    flex-wrap: wrap;
+    width: 70%;
+    margin-left: 10px;
+}
+.cal-buttons-left button:nth-child(13){
+    width: 60%;
+}
+.cal-buttons-right{
+    width: 15%;
+}
+.cal-buttons-right button:nth-child(4){
+    height: 34%;
+}
+.cal-buttons button{
+    background-color: transparent;
+    border: 2px solid yellow;
+    -webkit-box-shadow: 0px 5px 0px 0px rgba(173,165,17,1);
+    -moz-box-shadow: 0px 5px 0px 0px rgba(173,165,17,1);
+    box-shadow: 0px 5px 0px 0px rgba(173,165,17,1);
+}
+.cal-buttons button:hover{
+    transform: translate(0,-2px);
+    -webkit-box-shadow: 0px 7px 0px 0px rgba(173,165,17,1);
+    -moz-box-shadow: 0px 7px 0px 0px rgba(173,165,17,1);
+    box-shadow: 0px 7px 0px 0px rgba(173,165,17,1);
+}
+.cal-buttons button:focus{
+    outline: none;
+}
+.cal-buttons button:active{
+    transform: translate(0,2px);
+    -webkit-box-shadow: 0px 0px 0px 0px rgba(173,165,17,1);
+    -moz-box-shadow: 0px 0px 0px 0px rgba(173,165,17,1);
+    box-shadow: 0px 0px 0px 0px rgba(173,165,17,1);
+}
