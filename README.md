@@ -1,3 +1,3 @@
 # AlmightyCalculator
 
-Trying webhook custom events
+Trying webhook custom event
